@@ -1,0 +1,8 @@
+prefix=/home/medashan/ws_moveit/src/reuleaux-melodic/map_creator/build/devel
+
+Name: map_creator
+Description: Description of map_creator
+Version: 0.0.0
+Cflags: -I/home/medashan/ws_moveit/src/reuleaux-melodic/map_creator/build/devel/include -I/home/medashan/ws_moveit/src/reuleaux-melodic/map_creator/include
+Libs: -L${prefix}/lib -lsphere_discretization -lkinematics -lhdf5_dataset -lroscpp
+Requires: message_runtime

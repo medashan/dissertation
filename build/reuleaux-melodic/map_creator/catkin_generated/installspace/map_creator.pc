@@ -1,0 +1,8 @@
+prefix=/home/umashankarmedasetti/dissertation/install
+
+Name: map_creator
+Description: Description of map_creator
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsphere_discretization -lkinematics -lhdf5_dataset -lroscpp
+Requires: message_runtime
