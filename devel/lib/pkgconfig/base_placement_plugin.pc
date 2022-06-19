@@ -1,0 +1,8 @@
+prefix=/home/umashankarmedasetti/dissertation/devel
+
+Name: base_placement_plugin
+Description: Description of base_placement_plugin
+Version: 0.0.0
+Cflags: -I/home/umashankarmedasetti/dissertation/src/reuleaux-melodic/base_placement_plugin/include
+Libs: -L${prefix}/lib -lbase_placement_plugin
+Requires: interactive_markers pluginlib roscpp rviz visualization_msgs map_creator
