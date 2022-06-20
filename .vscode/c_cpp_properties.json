@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/umashankarmedasetti/dissertation/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/umashankarmedasetti/dissertation/src/reuleaux-melodic/base_placement_plugin/include/**",
+        "/home/umashankarmedasetti/dissertation/src/reuleaux-melodic/map_creator/include/**",
+        "/home/umashankarmedasetti/dissertation/src/fmauch_universal_robot/ur_kinematics/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
